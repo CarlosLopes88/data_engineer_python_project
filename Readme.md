@@ -65,7 +65,7 @@ data_engineer_python_project/
 
         - Execute o script `actions.py` para interagir com a API e inserir dados no banco de dados.
 
-        - Verifique os resultados no banco de dados PostgreSQL.
+        - Verifique os resultados no banco de dados PostgreSQL. (Eu usei o Dbeaver para acessar remotamente o RDS na AWS, então lembre de ajustar as regras de entrada no seu security group)
 
 ## Tecnologias Utilizadas
 
