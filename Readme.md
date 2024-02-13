@@ -59,13 +59,15 @@ pip install -r requirements.txt
 
 ## Uso
 
-1. Inicie o servidor da API:
+1. Execute o script `infrastructure.py` para criar o Bucket no S3 e o banco de dados postgres no RDS.
+
+2. Inicie o servidor da API:
 
 uvicorn api:app --log-level debug
 
-2. Execute o script `actions.py` para interagir com a API e inserir dados no banco de dados.
+3. Execute o script `actions.py` para interagir com a API e inserir dados no banco de dados.
 
-3. Verifique os resultados no banco de dados PostgreSQL.
+4. Verifique os resultados no banco de dados PostgreSQL.
 
 ## Tecnologias Utilizadas
 
