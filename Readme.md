@@ -61,7 +61,7 @@ data_engineer_python_project/
 
         - Inicie o servidor da API:
 
-        uvicorn api:app --log-level debug
+                uvicorn api:app --log-level debug
 
         - Execute o script `actions.py` para interagir com a API e inserir dados no banco de dados.
 
