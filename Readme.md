@@ -38,16 +38,16 @@ data_engineer_python_project/
 
 1. Clone o repositório:
 
-git clone https://github.com/seu-usuario/data_engineer_python_project.git
+git clone https://github.com/CarlosLopes88/data_engineer_python_project
 cd data_engineer_python_project
 
 
 2. Crie e ative um ambiente virtual:
 
-python -m venv .venv
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass # Windows
-..venv\Scripts\activate # Windows
-source .venv/bin/activate # Linux/Mac
+python -m venv .venv  
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass # Windows  
+..venv\Scripts\activate # Windows  
+source .venv/bin/activate # Linux/Mac  
 
 
 3. Instale as dependências:
