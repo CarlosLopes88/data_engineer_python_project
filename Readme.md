@@ -38,8 +38,8 @@ data_engineer_python_project/
 
 - Clone o repositório:
 
-git clone https://github.com/CarlosLopes88/data_engineer_python_project
-cd data_engineer_python_project
+    git clone https://github.com/CarlosLopes88/data_engineer_python_project
+    cd data_engineer_python_project
 
 
 - Crie e ative um ambiente virtual:
