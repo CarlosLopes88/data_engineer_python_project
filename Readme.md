@@ -15,7 +15,7 @@ O projeto está estruturado da seguinte forma:
 projeto-engenharia-dados/  
 │  
 ├── infrastructure.py  
-├── api.py  
+├── api.py 
 ├── actions.py  
 ├── .env  
 ├── imagens/  
