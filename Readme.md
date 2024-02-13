@@ -44,30 +44,28 @@ data_engineer_python_project/
 
 - Crie e ative um ambiente virtual:
 
-python -m venv .venv  
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass # Windows  
-..venv\Scripts\activate # Windows  
-source .venv/bin/activate # Linux/Mac  
-
+        python -m venv .venv  
+        Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass # Windows  
+        ..venv\Scripts\activate # Windows  
+        source .venv/bin/activate # Linux/Mac  
 
 - Instale as dependências:
 
-pip install -r requirements.txt
-
+        pip install -r requirements.txt
 
 - Configure as variáveis de ambiente no arquivo `.env` conforme necessário.
 
 ## Uso
 
-- Execute o script `infrastructure.py` para criar o Bucket no S3 e o banco de dados postgres no RDS.
+        - Execute o script `infrastructure.py` para criar o Bucket no S3 e o banco de dados postgres no RDS.
 
-- Inicie o servidor da API:
+        - Inicie o servidor da API:
 
-uvicorn api:app --log-level debug
+        uvicorn api:app --log-level debug
 
-- Execute o script `actions.py` para interagir com a API e inserir dados no banco de dados.
+        - Execute o script `actions.py` para interagir com a API e inserir dados no banco de dados.
 
-- Verifique os resultados no banco de dados PostgreSQL.
+        - Verifique os resultados no banco de dados PostgreSQL.
 
 ## Tecnologias Utilizadas
 
