@@ -14,12 +14,12 @@ O projeto está estruturado da seguinte forma:
 
 data_engineer_python_project/  
 │  
-│--- infrastructure.py  
+├── infrastructure.py  
 │--- api.py  
 │--- actions.py  
 │--- .env  
 │--- imagens/  
-│ │--- imagem1.jpg  
+│ ├── imagem1.jpg  
 │ │--- imagem2.jpg  
 │ │--- ...  
 │ ---- imagem10.jpg  
