@@ -26,6 +26,14 @@ data_engineer_python_project/
 ├── requirements.txt  
 └── README.md  
 
+├── lib  
+│   └── blackjack.ex  
+├── mix.exs  
+├── README.md  
+└── test  
+    ├── blackjack_test.exs  
+    └── test_helper.exs  
+
 - **`infrastructure.py`**: Script para configurar a infraestrutura na AWS, incluindo a criação de buckets no S3 e instâncias RDS.
 - **`api.py`**: Script que define uma API utilizando o framework FastAPI para enviar imagens para o S3.
 - **`actions.py`**: Script principal que interage com a API e o S3, além de inserir dados em um banco de dados PostgreSQL.
