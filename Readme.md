@@ -19,10 +19,10 @@ data_engineer_python_project/
 ├── actions.py  
 ├── .env  
 ├── imagens/  
-├   ├── imagem1.jpg  
-├   ├── imagem2.jpg  
-├   ├── ...  
-├   └── imagem10.jpg  
+├     ├── imagem1.jpg  
+├     ├── imagem2.jpg  
+├     ├── ...  
+├     └── imagem10.jpg  
 ├── requirements.txt  
 └── README.md  
 
