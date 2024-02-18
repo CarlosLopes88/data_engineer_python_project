@@ -26,6 +26,7 @@ data_engineer_python_project/
 ├── requirements.txt  
 └── README.md  
 
+$ tree
 ├── lib  
 │   └── blackjack.ex  
 ├── mix.exs  
