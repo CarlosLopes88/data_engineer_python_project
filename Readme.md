@@ -15,16 +15,16 @@ O projeto está estruturado da seguinte forma:
 data_engineer_python_project/  
 │  
 ├── infrastructure.py  
-│--- api.py  
-│--- actions.py  
-│--- .env  
-│--- imagens/  
+├── api.py  
+├── actions.py  
+├── .env  
+├── imagens/  
 │ ├── imagem1.jpg  
-│ │--- imagem2.jpg  
-│ │--- ...  
-│ ---- imagem10.jpg  
-│--- requirements.txt  
---- README.md  
+│ ├── imagem2.jpg  
+│ ├── ...  
+│ ─── imagem10.jpg  
+├── requirements.txt  
+─── README.md  
 
 - **`infrastructure.py`**: Script para configurar a infraestrutura na AWS, incluindo a criação de buckets no S3 e instâncias RDS.
 - **`api.py`**: Script que define uma API utilizando o framework FastAPI para enviar imagens para o S3.
