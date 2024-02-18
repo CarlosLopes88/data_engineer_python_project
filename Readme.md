@@ -13,7 +13,6 @@ Este projeto é uma demonstração de engenharia de dados utilizando Python e se
 O projeto está estruturado da seguinte forma:
 
 data_engineer_python_project/  
-│  
 ├── infrastructure.py  
 ├── api.py  
 ├── actions.py  
